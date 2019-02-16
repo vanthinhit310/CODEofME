@@ -1,0 +1,3 @@
+com\mkyong\SpringBootWebApplication.class
+com\mkyong\config\HibernateConfiguration.class
+com\mkyong\controller\HomeController.class

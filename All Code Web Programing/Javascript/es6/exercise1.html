@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập 1</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+<div class="row">
+    <div class="container">
+        <h2>DANH SÁCH SINH VIÊN</h2>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Tên sinh viên</th>
+                <th>Lớp</th>
+                <th>Thao tác</th>
+            </tr>
+            </thead>
+            <tbody id="data">
+
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="row">
+    <div class="container">
+        <div class="col-sm-4"></div>
+        <div style="text-align: center" class="col-sm-4">
+            <h2>Thêm sinh viên</h2>
+            <input style="margin: 10px" type="text" id="ten" class="form-control" placeholder="Tên sinh viên">
+            <input style="margin: 10px" type="text" id="lop" class="form-control" placeholder="Lớp đang theo học">
+            <br/>
+            <button type="button" id="btn" onclick="addSinhVien()" class="btn btn-success">Thêm ngay</button>
+        </div>
+        <div class="col-sm-4"></div>
+    </div>
+</div>
+<script src="js/demo.js"></script>
+</body>
+</html>

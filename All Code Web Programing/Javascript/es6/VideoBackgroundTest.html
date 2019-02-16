@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Background for WS</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://vodkabears.github.io/vide/js/jquery.vide.min.js"></script>
+    <style>
+        html, body {
+            height: 100%;
+        }
+    </style>
+
+</head>
+<body>
+
+</body>
+<script>
+    $("body").vide("images/background.mp4", {
+        volume: 1,
+        playbackRate: 1,
+        muted: true,
+        loop: true,
+        autoplay: true,
+        position: "50% 50%" // Alignment
+    });
+</script>
+</html>

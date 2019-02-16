@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Thông Báo</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel='stylesheet' href='https://cdn.rawgit.com/t4t5/sweetalert/v0.2.0/lib/sweet-alert.css'>
+    <script src="js/jquery.js"></script>
+    <script src='https://cdn.rawgit.com/t4t5/sweetalert/v0.2.0/lib/sweet-alert.min.js'></script>
+
+    <style>
+        .example button {
+            float: left;
+            background-color: #4E3E55;
+            color: white;
+            border: none;
+            box-shadow: none;
+            font-size: 17px;
+            font-weight: 500;
+            font-weight: 600;
+            border-radius: 3px;
+            padding: 15px 35px;
+            margin: 26px 5px 0 5px;
+            cursor: pointer;
+        }
+
+        .example button:focus {
+            outline: none;
+        }
+
+        .example button:hover {
+            background-color: #33DE23;
+        }
+
+        .example button:active {
+            background-color: #81ccee;
+        }
+    </style>
+
+    <script>
+        function _alert() {
+            swal('Bạn đã đăng kí thành công');
+
+        }
+    </script>
+</head>
+<body>
+<div class="example">
+    <button onclick="swal()" id="b1">A basic message</button>
+    <button onclick="swal()" id="b2">A title with a text under</button>
+    <button onclick="swal()" id="b3">A success message!</button>
+    <button onclick="swal()" id="b4">A warning message, with a function attached to the "Confirm"-button...</button>
+    <button onclick="swal()" id="b5">... and by passing a parameter, you can execute something else for "Cancel".
+    </button>
+    <button onclick="swal()" id="b6">A message with a custom icon</button>
+    <button onclick="_alert()" id="b7">Bấm vào đây</button>
+</div>
+</body>
+<script src="js/swal.js"></script>
+</html>

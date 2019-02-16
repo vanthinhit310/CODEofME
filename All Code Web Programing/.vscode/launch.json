@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "Test",
+            "args": "",
+            "projectName": "TestCSDL"
+        },
+        {
+            "type": "chrome",
+            "request": "attach",
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "java",
+            "name": "Test Debug (Launch)",
+            "request": "launch",
+            "mainClass": "junit.textui.TestRunner",
+            "args": "com.j74th.vscodedebugbook.bubblesort.BubbleSortTest"
+		}
+    ]
+}
