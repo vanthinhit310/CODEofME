@@ -1,3 +1,5 @@
+import OOP.Inheritance.Person;
+
 import java.util.Scanner;
 
 public class Main {
@@ -38,5 +40,14 @@ public class Main {
 //            i++;
 //        }
 //        System.out.println("Tổng các số từ một tới "+ a + " là :" + total);
+
+
+        //Inheritance
+        Person personObj = new Person();
+        personObj.setName("Lê Văn Thịnh");
+        personObj.setCode("Person 001");
+        personObj.setBirthDay(1997);
+        personObj.setGender("Nam");
+        personObj.showInfo();
     }
 }

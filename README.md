@@ -1,2 +1,0 @@
-# CODEofME
-Try hard more!
