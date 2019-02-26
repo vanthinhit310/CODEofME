@@ -2,13 +2,109 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37a2e344-74bc-49ae-a824-b467705c1c47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OOP/Inheritance/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../All Code Web Programing/laravel/mylaravel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../All Code Web Programing/laravel/mylaravel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../All Code Web Programing/mxh" beforeDir="false" afterPath="$PROJECT_DIR$/../All Code Web Programing/mxh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/DFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/DFSAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/NHau/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/NHau/addCode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/NHau/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AI/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/highlight.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/a11y-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/a11y-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/agate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/an-old-hope.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/androidstudio.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/arduino-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/arta.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/ascetic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/atelier-cave-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/atelier-cave-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/atelier-dune-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/atelier-dune-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/atelier-estuary-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/atelier-estuary-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/atelier-forest-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/atelier-forest-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/atelier-heath-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/atelier-heath-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/atelier-lakeside-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/atelier-lakeside-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/atelier-plateau-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/atelier-plateau-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/atelier-savanna-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/atelier-savanna-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/atelier-seaside-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/atelier-seaside-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/atelier-sulphurpool-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/atelier-sulphurpool-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/atom-one-dark-reasonable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/atom-one-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/atom-one-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/brown-paper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/brown-papersq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/codepen-embed.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/color-brewer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/darcula.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/darkula.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/docco.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/dracula.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/far.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/github-gist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/github.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/gml.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/googlecode.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/grayscale.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/gruvbox-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/gruvbox-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/hopscotch.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/hybrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/idea.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/ir-black.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/isbl-editor-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/isbl-editor-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/kimbie.dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/kimbie.light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/lightfair.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/magula.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mono-blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/monokai-sublime.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/monokai.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/nord.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/obsidian.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/ocean.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/paraiso-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/paraiso-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/pojoaque.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/pojoaque.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/purebasic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/qtcreator_dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/qtcreator_light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/railscasts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/rainbow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/routeros.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/school-book.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/school-book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/shades-of-purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/solarized-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/solarized-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/sunburst.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/tomorrow-night-blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/tomorrow-night-bright.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/tomorrow-night-eighties.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/tomorrow-night.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/tomorrow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/vs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/vs2015.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/xcode.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/xt256.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/zenburn.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nodejs/async-await" beforeDir="false" afterPath="$PROJECT_DIR$/../nodejs/async-await" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaCORE/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaCORE/Main.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,44 +176,81 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="275542668">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="html" value="2" />
+          <entry key="java" value="8" />
+          <entry key="js" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="2" />
+          <entry key="JAVA" value="8" />
+          <entry key="JavaScript" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="1337" />
+          <entry key="java" value="568" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="1337" />
+          <entry key="JAVA" value="568" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/AI/NHau/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AI/DFS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="47" column="37" lean-forward="true" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AI/NHau/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="92" selection-start-line="5" selection-start-column="4" selection-end-line="11" selection-end-column="92" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/OOP/Inheritance/Person.java">
+        <entry file="file://$PROJECT_DIR$/src/AI/NHau/addCode.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-              <folding>
-                <element signature="e#374#375#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#603#604#0" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-                <element signature="e#666#667#0" expanded="true" />
-                <element signature="e#711#712#0" expanded="true" />
-                <element signature="e#751#752#0" expanded="true" />
-                <element signature="e#784#785#0" expanded="true" />
-                <element signature="e#813#814#0" expanded="true" />
-                <element signature="e#857#858#0" expanded="true" />
-                <element signature="e#893#894#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="218">
+              <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -128,6 +261,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -143,6 +277,13 @@
         <option value="$PROJECT_DIR$/src/OOP/StudentDemo_01.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/OOP/Inheritance/Person.java" />
+        <option value="$PROJECT_DIR$/src/AI/DFSAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/AI/BFS.java" />
+        <option value="$PROJECT_DIR$/src/AI/Node.java" />
+        <option value="$PROJECT_DIR$/src/AI/DFS.java" />
+        <option value="$PROJECT_DIR$/src/AI/NHau/Node.java" />
+        <option value="$PROJECT_DIR$/src/AI/NHau/index.html" />
+        <option value="$PROJECT_DIR$/src/AI/NHau/addCode.html" />
       </list>
     </option>
   </component>
@@ -164,7 +305,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,39 +317,28 @@
               <item name="javaCORE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Javacore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaCORE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="generic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Javacore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaCORE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="OOP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Javacore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaCORE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="Inheritance" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550584548597" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551200382428" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/DFS_BFS/DFS_BFS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Git\CODEofME\javaCORE\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -223,13 +352,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="CaclDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generic.CaclDemo" />
+  <component name="RunManager" selected="JavaScript Debug.addCode.html">
+    <configuration name="BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AI.BFS" />
       <module name="javaCORE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generic.*" />
+          <option name="PATTERN" value="AI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,39 +366,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="DFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AI.DFS" />
       <module name="javaCORE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bubbleSort" />
+    <configuration name="DFSAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AI.DFSAlgorithm" />
       <module name="javaCORE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex_one" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex_one" />
-      <module name="javaCORE" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="addCode.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Javacore/AI/NHau/addCode.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Javacore/AI/NHau/index.html">
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.CaclDemo" />
-      <item itemvalue="Application.ex_one" />
-      <item itemvalue="Application.bubbleSort" />
+      <item itemvalue="Application.DFSAlgorithm" />
+      <item itemvalue="Application.BFS" />
+      <item itemvalue="Application.DFS" />
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="JavaScript Debug.addCode.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.bubbleSort" />
-        <item itemvalue="Application.ex_one" />
-        <item itemvalue="Application.CaclDemo" />
+        <item itemvalue="JavaScript Debug.addCode.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Application.DFS" />
+        <item itemvalue="Application.BFS" />
+        <item itemvalue="Application.DFSAlgorithm" />
       </list>
     </recent_temporary>
   </component>
@@ -290,17 +432,21 @@
       <workItem from="1550306717538" duration="1213000" />
       <workItem from="1550378622845" duration="450000" />
       <workItem from="1550559121352" duration="2689000" />
+      <workItem from="1551173418441" duration="1392000" />
+      <workItem from="1551177711216" duration="3683000" />
+      <workItem from="1551190016217" duration="394000" />
+      <workItem from="1551191112969" duration="9145000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14223000" />
+    <option name="totallyTimeSpent" value="28837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25869894" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14901665" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -309,7 +455,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -355,9 +501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="33" column="54" lean-forward="true" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -377,7 +520,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="402">
           <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -389,24 +532,81 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AI/DFSAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="333" selection-start-line="333" selection-end-line="333" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="487" selection-start-line="487" selection-end-line="487" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AI/BFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="31" />
           <folding>
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AI/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AI/NHau/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AI/NHau/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="92" selection-start-line="5" selection-start-column="4" selection-end-line="11" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/highlight.pack.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/vs.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AI/DFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="47" column="37" lean-forward="true" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AI/NHau/addCode.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
         </state>
       </provider>
     </entry>

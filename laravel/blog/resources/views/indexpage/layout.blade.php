@@ -56,56 +56,56 @@
 </nav>
 
 <!-- Page Header -->
-    <header class="masthead" style="background-image: url('https://wallpapercave.com/wp/wp2465958.jpg')">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-md-10 mx-auto">
-                    <div class="site-heading">
-                        <h3>iCODE</h3>
-                        <span class="subheading">We share - We happiness</span>
-                    </div>
+<header class="masthead" style="background-image: url('https://wallpapercave.com/wp/wp2465958.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <div class="site-heading">
+                    <h3>iCODE</h3>
+                    <span class="subheading">We share - We happiness</span>
                 </div>
             </div>
         </div>
-    </header>
+    </div>
+</header>
 @yield('content')
 
 <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-md-10 mx-auto">
-                    <ul class="list-inline text-center">
-                        <li class="list-inline-item">
-                            <a href="#">
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <ul class="list-inline text-center">
+                    <li class="list-inline-item">
+                        <a href="#">
                 <span class="fa-stack fa-lg">
                   <i class="fas fa-circle fa-stack-1x"></i>
                   <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
                 </span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">
                 <span class="fa-stack fa-lg">
                   <i class="fas fa-circle fa-stack-1x"></i>
                   <i class="fab fa-github fa-stack-1x fa-inverse"></i>
                 </span>
-                            </a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted">Copyright &copy; Your Website 2019</p>
-                </div>
+                        </a>
+                    </li>
+                </ul>
+                <p class="copyright text-muted">Copyright &copy; Your Website 2019</p>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="/indexpage/vendor/jquery/jquery.min.js"></script>
-    <script src="/indexpage/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script src="/indexpage/vendor/jquery/jquery.min.js"></script>
+<script src="/indexpage/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Custom scripts for this template -->
-    <script src="/indexpage/js/clean-blog.min.js"></script>
+<!-- Custom scripts for this template -->
+<script src="/indexpage/js/clean-blog.min.js"></script>
 
 </body>
 
