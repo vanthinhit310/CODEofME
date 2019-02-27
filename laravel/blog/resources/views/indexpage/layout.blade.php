@@ -106,7 +106,6 @@
 
 <!-- Custom scripts for this template -->
 <script src="/indexpage/js/clean-blog.min.js"></script>
-
 </body>
 
 </html>

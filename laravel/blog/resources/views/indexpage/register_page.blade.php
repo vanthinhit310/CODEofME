@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Đăng kí</title>
     <link href="indexpage/css/form.css" rel="stylesheet" type="text/css">
+    <script src="indexpage/vendor/jquery/jquery.min.js"></script>
     <style>
         #logo {
             margin-left: auto;
@@ -24,10 +25,11 @@
         <form id="reg">
             <h1>Sign Up</h1>
             <fieldset id="inputs">
-                <input id="name" type="text" placeholder="Your name" autofocus required>
-                <input id="username" type="text" placeholder="Username" autofocus required>
-                <input id="email" type="text" placeholder="Your email" autofocus required>
-                <input id="password" type="password" placeholder="Password" required>
+                <input id="name" type="text" placeholder="Your name" autofocus>
+                <input id="username" type="text" placeholder="Username" autofocus >
+                <input id="email" type="text" placeholder="Your email" autofocus >
+                <input id="password" type="password" placeholder="Password" >
+                <p style="color: red" id="error"></p>
             </fieldset>
             <fieldset id="actions">
                 <input type="submit" id="submit" value="Register">
@@ -37,4 +39,5 @@
     </div>
 </div>
 </body>
+<script src="indexpage/js/validateform.js"></script>
 </html>
