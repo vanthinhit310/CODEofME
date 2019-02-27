@@ -25,6 +25,7 @@
             <h1>Sign Up</h1>
             <fieldset id="inputs">
                 <input id="name" type="text" placeholder="Your name" autofocus required>
+                <input id="username" type="text" placeholder="Username" autofocus required>
                 <input id="email" type="text" placeholder="Your email" autofocus required>
                 <input id="password" type="password" placeholder="Password" required>
             </fieldset>
