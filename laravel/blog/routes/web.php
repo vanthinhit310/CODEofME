@@ -26,7 +26,7 @@ Route::get('/account/changepassword', function () {
     return view('changepass');
 });
 Route::get('/question/addquestion', function () {
-    $lang =5;
+    $lang =\App\Lang::all();
     return view('addquestion',['title'=>'Add question', 'lang'=>$lang]);
 });
 

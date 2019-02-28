@@ -24,7 +24,7 @@
             <textarea id="code" name="contentpaste"></textarea><br>
             <button class="btn btn-primary">Save</button>
 
-            <p>Select your language:
+            <p>Select your style:
                 <select class="form-control" onchange="selectLanguage()" name="language" id="language">
                     <option value="plain/text">Text</option>
                     <option value="text/x-csrc">C</option>
@@ -36,10 +36,11 @@
                     <option value="text/x-php">PHP</option>
                 </select>
             </p>
+            <p>Select your language</p>
             <p>
                 <select name="typeqs" id="typeqs" class="form-control">
-                    @foreach()
-                    <option value=""> -- Select One -- </option>
+                    @foreach($lang as $elm)
+                    <option value="{{$elm->lang}}"> -- {{$elm->name}} -- </option>
                         @endforeach
                 </select>
             </p>
