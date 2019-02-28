@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--===============================================================================================-->
-    <link rel="icon" type="image/png" href="login/images/icons/favicon.ico"/>
+    <link rel="icon" type="image/png" href="/login/images/icons/favicon.ico"/>
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="/login/vendor/bootstrap/css/bootstrap.min.css">
     <!--===============================================================================================-->
@@ -31,23 +31,35 @@
     <script>
         $(document).ready(function () {
             $('#submit').on('click', function () {
-                $.ajax({
-                    url: '/signupProcessing',
-                    data: {
-                        name: $('#name').val(),
-                        username: $('#username').val(),
-                        email: $('#email').val(),
-                        password: $('#password').val(),
-                        '_token': '{{csrf_token()}}'
-                    },
-                    method: "POST",
-                    success: function (data) {
-                        if (data.stt === 'ok') {
-                            swal("Chúc mừng", "Tài khoản của bạn đã được tào thành công", "success");
-                            setTimeout(window.location.href = '/login_page', 3000);
+                var name = $('#name').val();
+                var username = $('#username').val();
+                var email = $('#email').val();
+                var password = $('#password').val();
+                if (name !== '' && username !== '' && email !== '' && password !== '') {
+                    $.ajax({
+                        url: '/account/signupProcessing',
+                        data: {
+                            name: $('#name').val(),
+                            username: $('#username').val(),
+                            email: $('#email').val(),
+                            password: $('#password').val(),
+                            '_token': '{{csrf_token()}}'
+                        },
+                        method: "POST",
+                        success: function (data) {
+                            if (data.stt === 'ok') {
+                                var el = document.createElement("a");
+                                el.href = "/account/login_page";
+                                el.innerText = "Click here to redirect to Login Page.";
+                                swal({
+                                    title: "Success register your account.",
+                                    icon: "success",
+                                    content: el,
+                                });
+                            }
                         }
-                    }
-                })
+                    })
+                }
             })
         })
     </script>
@@ -98,7 +110,7 @@
                 <a class="txt2" href="/">
                     Home
                 </a> |
-                <a class="txt2" href="/login_page">
+                <a class="txt2" href="/account/login_page">
                     Login
                 </a>
 

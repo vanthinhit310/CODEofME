@@ -10,6 +10,7 @@ class Account extends Model
     protected $primaryKey = 'username';
     public $incrementing = false;
     public $timestamps = false;
+    protected $fillable = array('password', 'email');
 
     public function listPaste()
     {

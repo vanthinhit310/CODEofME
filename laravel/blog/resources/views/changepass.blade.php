@@ -5,29 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--===============================================================================================-->
-    <link rel="icon" type="image/png" href="login/images/icons/favicon.ico"/>
+    <link rel="icon" type="image/png" href="/login/images/icons/favicon.ico"/>
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="login/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/login/vendor/bootstrap/css/bootstrap.min.css">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="login/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="login/fonts/iconic/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" type="text/css" href="/login/fonts/iconic/css/material-design-iconic-font.min.css">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="login/vendor/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="/login/vendor/animate/animate.css">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="login/vendor/css-hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" type="text/css" href="/login/vendor/css-hamburgers/hamburgers.min.css">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="login/vendor/animsition/css/animsition.min.css">
+    <link rel="stylesheet" type="text/css" href="/login/vendor/animsition/css/animsition.min.css">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="login/vendor/select2/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="/login/vendor/select2/select2.min.css">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="login/vendor/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" type="text/css" href="/login/vendor/daterangepicker/daterangepicker.css">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="login/css/util.css">
-    <link rel="stylesheet" type="text/css" href="login/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/login/css/util.css">
+    <link rel="stylesheet" type="text/css" href="/login/css/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script src="indexpage/js/validateform.js"></script>
+    <script src="/indexpage/js/validateform.js"></script>
     <!--===============================================================================================-->
     <script>
         $(document).ready(function () {
@@ -35,7 +35,7 @@
             $('#btnChange').on('click', function () {
                 if ($('#newpass').val() === $('#confirm').val()) {
                     $.ajax({
-                        url: '/changePassword',
+                        url: '/account/changePassword',
                         data: {
                             oldpass: $('#oldpass').val(),
                             newpass: $('#newpass').val(),
@@ -47,7 +47,7 @@
                             if (data.stt === 'ok') {
                                 // swal("Thay đổi mật khẩu thành công!", "<h1>Hello World!</h1><p>Have a nice day!</p>", "success");
                                 var el = document.createElement("a");
-                                el.href = "/login_page";
+                                el.href = "/account/login_page";
                                 el.innerText = "Nhấn vào đây để đăng nhập vào hệ thống.";
                                 swal({
                                     title: "Mật khẩu thay đổi thành công.",
@@ -121,19 +121,19 @@
 
 <!--===============================================================================================-->
 <!--===============================================================================================-->
-<script src="login/vendor/animsition/js/animsition.min.js"></script>
+<script src="/login/vendor/animsition/js/animsition.min.js"></script>
 <!--===============================================================================================-->
-<script src="login/vendor/bootstrap/js/popper.js"></script>
-<script src="login/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="/login/vendor/bootstrap/js/popper.js"></script>
+<script src="/login/vendor/bootstrap/js/bootstrap.min.js"></script>
 <!--===============================================================================================-->
-<script src="login/vendor/select2/select2.min.js"></script>
+<script src="/login/vendor/select2/select2.min.js"></script>
 <!--===============================================================================================-->
-<script src="login/vendor/daterangepicker/moment.min.js"></script>
-<script src="login/vendor/daterangepicker/daterangepicker.js"></script>
+<script src="/login/vendor/daterangepicker/moment.min.js"></script>
+<script src="/login/vendor/daterangepicker/daterangepicker.js"></script>
 <!--===============================================================================================-->
-<script src="login/vendor/countdowntime/countdowntime.js"></script>
+<script src="/login/vendor/countdowntime/countdowntime.js"></script>
 <!--===============================================================================================-->
-<script src="login/js/main.js"></script>
+<script src="/login/js/main.js"></script>
 
 
 </body>

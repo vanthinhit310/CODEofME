@@ -38,10 +38,10 @@ class UserController extends Controller
                 Session::put('acc', $user);
                 return redirect('/');
             }else{
-                return redirect('/login_page')->with('message', 'Mật khẩu không đúng.');
+                return redirect('/account/login_page')->with('message', 'Mật khẩu không đúng.');
             }
         } else {
-            return redirect('/login_page')->with('message', 'Tài khoản không tồn tại.');
+            return redirect('/account/login_page')->with('message', 'Tài khoản không tồn tại.');
         }
     }
 
