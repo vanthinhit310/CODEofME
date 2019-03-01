@@ -39,7 +39,7 @@
             @endif
         @endif
         @if($acc != null && $acc->username == $paste->username)
-            <form action="/paste/edit-paste" method="post">
+            <form action="" method="post">
                 {{csrf_field()}}
                 <input type="text" name="code" value="{{$paste->code}}" style="display: none">
                 <h1>Add your title</h1>
@@ -161,6 +161,7 @@
 
 
     <script>
+
         @if($acc == null || ($acc!=null && $acc->username != $paste->username ))
             document.getElementById('slug').readOnly = 'readOnly';
             document.getElementById('tag').readOnly = 'readOnly';
@@ -243,7 +244,5 @@
                 selectTheme();
             }
         });
-
-
     </script>
 @endsection

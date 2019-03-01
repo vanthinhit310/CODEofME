@@ -10,8 +10,4 @@ class Comment extends Model
     protected $primaryKey = 'id';
     public $incrementing = false;
     public $timestamps = false;
-
-
-
-
 }

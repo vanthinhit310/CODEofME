@@ -38,6 +38,19 @@ class QuestionController extends Controller
         return redirect('/question/addquestion')->with('message', 'Question added');
 
     }
+    public function checkResult(Request $request){
+        $q = Question::where('code', $request->codeid)->first();
+        $result = $request->result;
+        if ($result == $q->correct){
+            return response()->json([
+                'stt' => 'dung'
+            ]);
+        }else{
+            return response()->json([
+                'stt' => 'sai'
+            ]);
+        }
+    }
 
     public function test()
     {

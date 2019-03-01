@@ -14,6 +14,6 @@ class Question extends Model
 
     public function getLang()
     {
-        return $this->belongsTo('App\\Paste', 'lang');
+        return $this->belongsTo('App\\Lang', 'lang');
     }
 }

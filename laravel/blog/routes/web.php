@@ -12,23 +12,31 @@
 */
 
 Route::get('/', function () {
-    $lang =\App\Lang::all();
-    return view('index',['title'=> 'Home','lang'=>$lang]);
+    $lang = \App\Lang::all();
+    return view('index', ['title' => 'Home', 'lang' => $lang]);
 });
 Route::get('/account/register_page', function () {
     return view('register_page');
 });
 Route::get('/account/login_page', function () {
     return view('login');
-});Route::get('/account/forgot', function () {
+});
+Route::get('/account/forgot', function () {
     return view('reset');
 });
 Route::get('/account/changeyourpassword', function () {
     return view('changepass');
 });
 Route::get('/question/addquestion', function () {
-    $lang =\App\Lang::all();
-    return view('addquestion',['title'=>'Add question', 'lang'=>$lang]);
+    $lang = \App\Lang::all();
+    return view('addquestion', ['title' => 'Add question', 'lang' => $lang]);
+});
+Route::get('/question/showquestion', function () {
+    $lang = \App\Lang::all();
+    $quj = \App\Question::where('lang', 'text/x-java')->inRandomOrder()->get()->first();
+
+//    var_dump($quj);die;
+    return view('question', ['title' => 'Question', 'lang' => $lang, 'question' => $quj]);
 });
 
 Route::post('/account/signupProcessing', 'UserController@addUser');
@@ -38,24 +46,23 @@ Route::get('/account/test', 'UserController@test');
 Route::post('/account/changePassword', 'UserController@changePassword');
 
 
-
 //dai ca
-Route::get('/{code}','PasteController@GetPaste');
-Route::get('/a/{code}','PasteController@GetPasteA');
+Route::get('/{code}', 'PasteController@GetPaste');
+Route::get('/a/{code}', 'PasteController@GetPasteA');
 
-Route::get('/paste/all','PasteController@Pastes');
-Route::get('/paste/search','PasteController@Search');
+Route::get('/paste/all', 'PasteController@Pastes');
+Route::get('/paste/search', 'PasteController@Search');
 
-Route::post('/paste/edit-paste','PasteController@EditPaste');
-Route::get('/paste/new-paste','PasteController@CreatePastePage');
-Route::post('/paste/new-paste','PasteController@CreatePaste');
-
-
-Route::get('/comment/add-new','CommentController@add');
+Route::post('/paste/edit-paste', 'PasteController@EditPaste');
+Route::get('/paste/new-paste', 'PasteController@CreatePastePage');
+Route::post('/paste/new-paste', 'PasteController@CreatePaste');
 
 
+Route::get('/comment/add-new', 'CommentController@add');
 
-Route::get('/t/t/test','QuestionController@test');
 
-Route::get('/question/addQuestionProcess','QuestionController@addQuestion');
+Route::get('/t/t/test', 'QuestionController@test');
+
+Route::get('/question/addQuestionProcess', 'QuestionController@addQuestion');
+Route::get('/question/checkresult', 'QuestionController@checkResult');
 
