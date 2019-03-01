@@ -1,4 +1,6 @@
 <?php
+use Illuminate\Support\Facades\Session;
+use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -11,9 +13,34 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/', function (Request $request) {
     $lang = \App\Lang::all();
-    return view('index', ['title' => 'Home', 'lang' => $lang]);
+    $info = $request->info;
+    $message = '';
+    if ($info != null) {
+        $score = Session::get('score');
+
+        if(Session::get('acc')==null){
+            $message = "Rất tiếc. Bạn đã chọn đáp án sai. Tổng điểm của bạn là: ".$score.' .Do không đăng nhập nên điểm sẽ không được lưu lại';
+        }else{
+            $acc = \App\Account::where('username',Session::get('acc')->username)->first();
+            if($acc->score <= $score){
+                \App\Account::where('username',Session::get('acc')->username)->update([
+                   'score'=> $score
+                ]);
+                $message = "Rất tiếc. Bạn đã chọn đáp án sai. Tổng điểm của bạn là: ".$score.' .Đã cập nhật điểm của bạn: '.$score;
+            }else{
+                $message = "Rất tiếc. Bạn đã chọn đáp án sai. Tổng điểm của bạn là: ".$score.' .Do điểm này thắp hơn điểm cũ nên điểm này không được lưu vào DB';
+            }
+
+        }
+
+//        $listQuestion = Session::get('list-question');
+
+        Session::put('score',0);
+        Session::put('list-question',[]);
+    }
+    return view('index', ['title' => 'Home', 'lang' => $lang, 'message' => $message]);
 });
 Route::get('/account/register_page', function () {
     return view('register_page');
@@ -31,11 +58,17 @@ Route::get('/question/addquestion', function () {
     $lang = \App\Lang::all();
     return view('addquestion', ['title' => 'Add question', 'lang' => $lang]);
 });
+
+Route::get('/question/start-now',function (Request $request){
+    $lang = $request->lan;
+    Session::put('lang', $lang);
+    return redirect('/question/showquestion');
+});
+
 Route::get('/question/showquestion', function () {
     $lang = \App\Lang::all();
-    $quj = \App\Question::where('lang', 'text/x-java')->inRandomOrder()->get()->first();
-
-//    var_dump($quj);die;
+    $listQS = Session::get('list-question');
+    $quj = \App\Question::where('lang', Session::get('lang'))->whereNotIn('code',$listQS)->inRandomOrder()->get()->first();
     return view('question', ['title' => 'Question', 'lang' => $lang, 'question' => $quj]);
 });
 

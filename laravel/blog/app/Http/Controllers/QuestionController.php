@@ -42,6 +42,17 @@ class QuestionController extends Controller
         $q = Question::where('code', $request->codeid)->first();
         $result = $request->result;
         if ($result == $q->correct){
+            if(Session::get('score') == null){
+                Session::put('score',0);
+            }
+            if(Session::get('list-question') == null){
+                Session::put('list-question',array());
+            }
+            $listQS = Session::get('list-question');
+            array_push($listQS,$q->code);
+            Session::put('list-question',$listQS);
+            Session::put('score',Session::get('score')+1);
+
             return response()->json([
                 'stt' => 'dung'
             ]);

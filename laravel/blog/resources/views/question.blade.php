@@ -107,9 +107,19 @@
             </select>
             <br>
         </form>
+        <p><strong style="color: red" id="sai"></strong></p>
+        <p><strong style="color: green" id="dung"></strong></p>
         <button type="button" id="checkResult" class="btn btn-success">Check result of question</button>
     </div>
     <div class="col-sm-3">
+        <div class="panel panel-default">
+            <div class="panel-heading">Information</div>
+            <div class="panel-body">
+                <p>{{Session::get('score')}}</p>
+            </div>
+        </div>
+
+
         @include('recentpaste')
     </div>
 
@@ -184,13 +194,13 @@
                     method: "GET",
                     success: function (data) {
                         if (data.stt === 'dung') {
-                            Swal.fire('Câu trả lời của bạn là đáp án đúng');
-                            setTimeout(function() {
+                            $('#dung').html('Chúc mừng. Đáp án bạn chọn là đáp án đúng.');
+                            setTimeout(function () {
                                 location.reload();
                             }, 2000);
                         } else if (data.stt === 'sai') {
-                            Swal.fire('Đáp án của bạn là đáp án sai. Bạn sẽ phải chơi lại');
-                            setTimeout(window.location.href='/' , 3500);
+                            $('#sai').html('Tiếc quá. Đáp án bạn chọn là đáp án sai. Bạn sẽ phải chơi lại từ đầu.');
+                            setTimeout(window.location.href = '/?info=sai', 3500);
                         }
                     }
                 })
