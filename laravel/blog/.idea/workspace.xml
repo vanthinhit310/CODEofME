@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fff3cd46-f37b-4433-a341-f683882813e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/question.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Comment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Question.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/templates.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/templates.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/viewpaste.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/viewpaste.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../codefulltime" beforeDir="false" afterPath="$PROJECT_DIR$/../codefulltime" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +18,7 @@
     <session id="1747924706">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
@@ -465,7 +456,7 @@
       <workItem from="1551325422605" duration="9671000" />
       <workItem from="1551346045894" duration="170000" />
       <workItem from="1551355696448" duration="24188000" />
-      <workItem from="1551408287135" duration="9107000" />
+      <workItem from="1551408287135" duration="9148000" />
     </task>
     <task id="LOCAL-00001" summary="commit_003">
       <created>1551112067184</created>
@@ -537,11 +528,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551381050953</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="commit 005">
+      <created>1551417843895</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1551417843896</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80109000" />
+    <option name="totallyTimeSpent" value="80150000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
